@@ -6,7 +6,7 @@ import exception.ValidationException;
 public final class AddressValidationTests {
 	private AddressValidationTests() {}
 	
-	public static void rullAll() {
+	public static void runAll() {
 		testCityRequired();
 		testLineRequired();
 		testValidConstruction();

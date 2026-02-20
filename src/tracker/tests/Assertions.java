@@ -17,7 +17,7 @@ public final class Assertions {
 	}
 	
 	public static void assertFalse(boolean condition, String message) {
-		if (!condition) {
+		if (condition) {
 			throw new AssertionError(message);
 		}
 	}
